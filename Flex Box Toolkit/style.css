@@ -1,0 +1,143 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.col{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+
+}
+
+h2 {
+    font-size: 4.5em;
+    padding-left: 0.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+body{
+    width: 70vw;
+    margin: auto;
+    padding-top: 10vw;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.content-flow {
+    padding: 2em;
+    box-shadow: royalblue;
+    margin: 2em;
+    border-left: 2px solid rgba(255, 255, 255, 0.795);
+    border-top: 2px solid rgba(255, 255, 255, 0.795);
+    border-radius: 1.25em;
+    background:rgba(233, 238, 240, 0.438);
+    -webkit-box-shadow: 28px 43px 112px -36px rgba(0,0,0,0.75);
+    -moz-box-shadow: 28px 43px 112px -36px rgba(0,0,0,0.75);
+    box-shadow: 28px 43px 112px -36px rgba(0,0,0,0.75);
+    margin-top: 8em;
+
+ 
+
+
+   
+    
+}
+.even-columns {
+    display: flex;
+    gap:1em;
+}
+
+
+.even-columns {
+
+
+   
+} */
+
+.even-columns {
+    display: flex;
+} 
+
+.even-columns > * {
+    flex-basis: 100%;
+  
+}
+
+.img {
+    background-image: url("example.png");
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+
+.col{
+    border: 1px solid rgba(8, 168, 21, 0.438);
+    background-color: rgba(182, 230, 173, 0.61);
+    border-radius: 0.5em;
+    padding: 2em;
+
+  
+    
+}
+
+.col-img{
+    border: 1px solid rgba(8, 168, 21, 0.438);
+    background-color: rgba(182, 230, 173, 0.61);
+    padding: 0;
+    border-radius: 0.5em;
+ 
+}
+
+.grid-ish {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
+}
+
+.grid-ish > * {
+    flex: 1 1 10em;
+
+}
+
+.content-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.content-sidebar > *:nth-child(1) {
+    flex: 1 1 65%;
+    min-width: 30ch;
+
+}
+
+.content-sidebar > *:nth-child(2) {
+    flex: 1 1 25%;
+    min-width: 15ch;
+
+}
+
+
+
